@@ -22,7 +22,7 @@ variable "private_subnet_id" {
 variable "db_name" {
   description = "Database name"
   type        = string
-  default     = "myapp"
+  default     = "testgev"
 }
 
 variable "db_username" {
