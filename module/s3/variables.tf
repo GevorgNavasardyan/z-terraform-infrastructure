@@ -1,5 +1,5 @@
 variable "bucket_name" {
-  description = "gev-tfstate-bucket1"
+  description = "gev-tfstate-bucket2"
   type        = string
 }
 
