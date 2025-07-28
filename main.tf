@@ -1,11 +1,5 @@
 data "aws_caller_identity" "current" {}
 
-module "s3" {
-  source      = "./module/s3"
-  bucket_name = "gev-tfstate-bucket"
-  tags        = local.tags
-}
-
 module "vpc" {
   source                           = "./module/vpc"
   tags                             = local.tags
